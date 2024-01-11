@@ -107,7 +107,7 @@ const ResumeSection = () => {
           style={{ background: "#1f232b" }}
         >
           <div>
-            <p className="linked-btn">Download resume</p>
+            <a href={process.env.RESUME_URI} className="linked-btn hover:underline my-10">Download resume</a>
           </div>
           <div className=" relative top-20 max-md:top-60 w-full h-96 flex justify-center">
             <img

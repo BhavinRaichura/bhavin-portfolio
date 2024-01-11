@@ -80,7 +80,7 @@ export const HeaderSection = () => {
   
               <div className="">
                 <h1 className=" text-3xl py-5">Full Stack Web developer</h1>
-                <p className="text-base font-normal text-gray-300 ">Available</p>
+                <p className="text-base font-normal text-lime-500 ">Available</p>
               </div>
   
               <div className=" infinite-bouncing-animation ">
