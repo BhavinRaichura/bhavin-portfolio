@@ -97,16 +97,19 @@ const SkillsSection = () => {
                     className="w-14 h-14"
                     src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
                     alt=""
+                    title="C++"
                   />
                   <img
                     className="w-14 h-14"
                     src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
                     alt=""
+                    title="JavaScript"
                   />
                   <img
                     className="w-14 h-14"
                     src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
                     alt=""
+                    title="Python"
                   />
                 </div>
                 <p className=" relative md:-right-40 md:top-16 max-md:-right-32  max-md:top-9 rotate-90  ">
@@ -125,16 +128,19 @@ const SkillsSection = () => {
                     className="w-14 h-14"
                     src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png"
                     alt=""
+                    title="React.js"
                   />
                   <img
                     className="w-14 h-14"
                     src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"
                     alt=""
+                    title="Next.js"
                   />
                   <img
                     className="w-14 h-14"
                     src="https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp"
                     alt=""
+                    title="TailwindCSS"
                   />
                 </div>
                 <p className=" relative md:-right-40 md:top-20 max-md:-right-32 max-md:top-12 rotate-90  ">
@@ -153,16 +159,20 @@ const SkillsSection = () => {
                     className="w-14 h-14"
                     src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
                     alt=""
+                    title="Express.js"
                   />
                   <img
                     className="w-14 h-14 bg-white"
                     src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png"
                     alt=""
+                    title="Flask"
                   />
                   <img
                     className="w-14 h-14"
                     src="https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg"
                     alt=""
+                    title="Node.js"
+
                   />
                 </div>
                 <p className=" relative md:-right-40 md:top-20 max-md:-right-32 max-md:top-12 rotate-90  ">
@@ -181,11 +191,13 @@ const SkillsSection = () => {
                     className="w-14 h-14"
                     src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
                     alt=""
+                    title="MongoDB"
                   />
                   <img
                     className="w-14 h-14"
                     src="https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png"
                     alt=""
+                    title="MySQL"
                   />
                 </div>
                 <p className=" relative md:-right-40 md:top-20 max-md:-right-32 max-md:top-12 rotate-90  ">
