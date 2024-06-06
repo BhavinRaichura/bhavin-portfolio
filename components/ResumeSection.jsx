@@ -76,7 +76,7 @@ const ResumeSection = () => {
                 light ? " text-gray-200 " : "text-gray-600"
               }`}
             >
-              {"Let's meet up toghether!"}
+              {"Let's meet up together!!"}
             </h1>
             <p
               className={

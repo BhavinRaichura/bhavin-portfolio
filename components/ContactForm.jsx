@@ -24,7 +24,7 @@ const [body, setBody] = useState(""); */}
           </div>
           <p className=" text-center title-text">Bhavin Raichura</p>
           <p className="descriptive-text text-center">
-            This mail will send to{" "}
+            
             <a href="mailto:bhavinraichura28@gmail.com">
               bhavinraichura28@gmail.com
             </a>
