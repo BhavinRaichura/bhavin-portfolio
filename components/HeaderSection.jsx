@@ -44,8 +44,8 @@ export const HeaderSection = () => {
         <ParticlesHead /> 
         <div className="flex justify-center   h-full pt-20 items-center ">
           <div className=" flex w-4/5 max-lg:w-11/12 max-md:w-full">
+          
             <div className="w-1/2 max-md:w-0  px-5 flex justify-end ">
-             
               <div className="slider-thumb bg-sky-400"></div>
               <img
                 src="/mypic.png"
@@ -53,6 +53,7 @@ export const HeaderSection = () => {
                 alt="bhvain raichura"
               />
             </div>
+
             <div ref={textRef} className=" z-20 w-1/2 max-md:w-full  px-5 text-right flex flex-col gap-14">
               <h2 className=" ">
 
