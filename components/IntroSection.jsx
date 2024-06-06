@@ -72,16 +72,9 @@ export const IntroSection = () => {
           <div className=" h-full gap-10 flex items-baseline max-md:flex-col justify-center w-3/5  max-xl:w-11/12 max-md:w-full">
             <div ref={quoteText} className="w-1/2 max-md:w-full  p-5">
               <p className=" descriptive-text my-10">
-                As a Full Stack Developer, I build the bridge between ideas and
-                functionality, utilizing a toolkit that includes C++, Next.js,
-                JavaScript, React.js, Flask, Python, Databses and more.
+                Based in Raipur, Chhattisgarh, my journey into software development began during my college, where I was introduced to coding through data structures, AI, ML, and web development. Supplementing my academic foundation with several web development courses and internships, I have evolved into a proficient Full Stack Developer.
               </p>
-              <p className="descriptive-text my-10">
-                Beyond coding, {"I've"} immersed myself in web development
-                internships, honing my skills and bringing ideas to life. A
-                passionate, enthusiastic, and fast learner, I thrive in the
-                dynamic world of software development.{" "}
-              </p>
+              
               <div className="flex items-baseline  gap-8 ">
                 <div>
                   <FaQuoteRight className=" w-10 h-10 text-slate-800" />

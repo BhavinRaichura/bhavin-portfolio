@@ -212,17 +212,12 @@ const SkillsSection = () => {
             className="  w-1/2 p-5 max-md:w-full text-center  font-light  my-10   "
           >
             <p className=" overflow-hidden pb-5 descriptive-text">
-              Dedicated to the craft, I tackle data structure problems daily on <a href="https://leetcode.com/bhavinraichura28/" >Leetcode</a>. 
-              Proud recipient of the <a href="https://leetcode.com/bhavinraichura28/" >LeetCode Badge 2023</a>, 
-              with over 300+ consecutive days of problem-solving—340 days conquered last year.
+              My expertise spans a diverse tech stack, allowing me to build comprehensive full-stack applications. 
+              I continually enhance my problem-solving abilities by tackling data structure challenges on <a href="https://leetcode.com/bhavinraichura28/" >Leetcode</a> daily.
             </p>
               
             <p className=" overflow-hidden  py-5 descriptive-text">
-              In the ever-evolving landscape of tech, 
-              I'm not just keeping up—I'm ahead. 
-              With AI tools in my toolkit, 
-              I ensure efficiency and excellence in every line of code. 
-              Let's build the future together.
+              My multiple internships, alongside my current role as a software developer, have honed my skills in Full Stack Development and fostered effective collaboration within professional teams.
             </p>
            
           </div>
