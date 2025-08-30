@@ -1,7 +1,7 @@
 "use client";
 
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react"
 
 // intro comp
 import { FaQuoteRight } from "react-icons/fa";
@@ -73,7 +73,7 @@ export const IntroSection = () => {
           <div className=" h-full gap-10 flex items-baseline max-md:flex-col justify-center w-3/5  max-xl:w-11/12 max-md:w-full">
             <div ref={quoteText} className="w-1/2 max-md:w-full  p-5">
               <p className=" descriptive-text my-10">
-                Based in Raipur, Chhattisgarh, my journey into software development began during my college, where I was introduced to coding through data structures, AI, ML, and web development. Supplementing my academic foundation with several web development courses and internships, I have evolved into a proficient Full Stack Developer.
+                My journey began during my college years at NIT Raipur where I discovered my passion for software development while working on various projects. Though I hold a degree in Biomedical Engineering, my professional path led me to become a software engineer. Now with 1.5 years of industrial experience, I specialize in web development and backend technologies, creating robust and scalable applications.
               </p>
               
               <div className="flex items-baseline  gap-8 ">

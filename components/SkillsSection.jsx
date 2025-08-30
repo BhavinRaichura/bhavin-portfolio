@@ -213,12 +213,11 @@ const SkillsSection = () => {
             className="  w-1/2 p-5 max-md:w-full text-center  font-light  my-10   "
           >
             <p className=" overflow-hidden pb-5 descriptive-text">
-              My expertise spans a diverse tech stack, allowing me to build comprehensive full-stack applications. 
-              I continually enhance my problem-solving abilities by tackling data structure challenges on <a href="https://leetcode.com/bhavinraichura28/" >Leetcode</a> daily.
+              With 1.5 years of industry experience, I've developed strong expertise in both frontend and backend technologies. I specialize in building scalable web applications using modern frameworks and tools shown here.
             </p>
               
             <p className=" overflow-hidden  py-5 descriptive-text">
-              My multiple internships, alongside my current role as a software developer, have honed my skills in Full Stack Development and fostered effective collaboration within professional teams.
+              My professional experience has equipped me with strong problem-solving skills and a deep understanding of software development best practices. I excel in collaborative environments and focus on delivering efficient, maintainable solutions.
             </p>
            
           </div>
