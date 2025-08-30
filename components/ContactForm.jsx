@@ -25,8 +25,8 @@ const [body, setBody] = useState(""); */}
           <p className=" text-center title-text">Bhavin Raichura</p>
           <p className="descriptive-text text-center">
             
-            <a href="mailto:bhavinraichura28@gmail.com">
-              bhavinraichura28@gmail.com
+            <a href="mailto:bhavinraichura.dev@gmail.com">
+              bhavinraichura.dev@gmail.com
             </a>
           </p>
         </div>
@@ -73,13 +73,13 @@ const [body, setBody] = useState(""); */}
               ></textarea>
             </div>
             <a
-              href={`mailto:bhavinraichura28@gmail.com?subject=${subject}&body=${body}`}
+              href={`mailto:bhavinraichura.dev@gmail.com?subject=${subject}&body=${body}`}
               className={` cursor-pointer ${
                 body.length && subject.length ? "  " : "  "
               } `}
             >
               <p className="w-full py-2 my-8 text-center bg-sky-500 rounded-md text-black">
-                bhavinraichura28@gmail.com
+                bhavinraichura.dev@gmail.com
               </p>
             </a>
           </form>*/}
@@ -93,7 +93,7 @@ const [body, setBody] = useState(""); */}
             <p className="w-40 h-0.5  float-right rounded-full bg-sky-500 my-2"></p>
           </a>
           <a
-            href="mailto:bhavinraichura28@gmail.com"
+            href="mailto:bhavinraichura.dev@gmail.com"
             className="w-1/2 group text-center hover:backdrop-brightness-90 text-gray-400 flex-col hover:text-gray-100 flex justify-center items-center"
           >
             <IoMailUnread className=" w-10 h-10 p-1 text-sky-500" />
