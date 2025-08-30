@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import SocialButtons from "@/components/SocialButtons";
+import WavesUI from "./WavesUI";
 
 const ResumeSection = () => {
   const [light, setLight] = useState(0);
@@ -48,10 +49,10 @@ const ResumeSection = () => {
   return (
     <div
       className=" h-full  overflow-hidden "
-      style={{ background: "#1f232b" }}
+      style={{ background: "rgb(18, 20, 25)" }}
       id="resumeSection"
     >
-      
+
       <div ref={heroRef}>
         <div
           ref={lightRef}
@@ -72,9 +73,8 @@ const ResumeSection = () => {
             }
           >
             <h1
-              className={` text-3xl text-center ${
-                light ? " text-gray-200 " : "text-gray-600"
-              }`}
+              className={` text-3xl text-center ${light ? " text-gray-200 " : "text-gray-600"
+                }`}
             >
               {"Let's meet up together!!"}
             </h1>
@@ -86,15 +86,13 @@ const ResumeSection = () => {
             ></p>
 
             <p
-              className={` text-base ${
-                light ? " text-gray-200 " : "text-gray-600"
-              }`}
+              className={` text-base ${light ? " text-gray-200 " : "text-gray-600"
+                }`}
             >
               Follow me on
             </p>
 
-            <div className={`  ${
-                light ? " brightness-100 " : "brightness-50"
+            <div className={`  ${light ? " brightness-100 " : "brightness-50"
               }`}>
               <SocialButtons />
             </div>
@@ -104,7 +102,7 @@ const ResumeSection = () => {
       <div>
         <div
           className=" flex flex-col justify-center items-center"
-          style={{ background: "#1f232b" }}
+          style={{ background: "rgb(18, 20, 25)" }}
         >
           <div>
             <a href={process.env.RESUME_URI} className="linked-btn hover:underline my-10">Download resume</a>
@@ -125,25 +123,7 @@ const ResumeSection = () => {
         </div>
       </div>
 
-      <svg
-        _ngcontent-serverApp-c9=""
-        className="z-50 relative top-1"
-        xmlns="http://www.w3.org/2000/svg"
-        width="100%"
-        height="250px"
-        viewBox="0 0 1440 320"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-        class="ng-tns-c9-3"
-      >
-        <path
-          _ngcontent-serverApp-c9=""
-          fill="#222730"
-          fill-opacity="1"
-          d="M0,96L30,117.3C60,139,120,181,180,197.3C240,213,300,203,360,176C420,149,480,107,540,117.3C600,128,660,192,720,192C780,192,840,128,900,90.7C960,53,1020,43,1080,53.3C1140,64,1200,96,1260,117.3C1320,139,1380,149,1410,154.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-          class="ng-tns-c9-3"
-        ></path>
-      </svg>
+      <WavesUI backgroundColor="rgb(18, 20, 25)" fillColor="#222730" rotation="0" classes=" z-50 " />
     </div>
   );
 };
