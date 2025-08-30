@@ -1,6 +1,6 @@
 export const experiences = [
     {
-        title: "Associate Product Implementation Engineer | SDE",
+        title: "Associate Product Implementation Engineer (SDE)",
         company: "OneOrigin",
         companyLink: "https://oneorigin.us/",
         duration: "Apr 2024 - Present",
@@ -14,7 +14,7 @@ export const experiences = [
             "Integrated third-party platforms like CollegeSource TES, and Recruit",
             "Collaborated with cross-functional teams to deliver scalable, client-ready solutions"
         ],
-        technologies: ["JavaScript", "Node.js", "Express.js", "Amazon Web Services (AWS)", "Elasticsearch"],
+        technologies: ["JavaScript", "Node.js", "Express.js", "Amazon Web Services (AWS)", "Elasticsearch", "Next.js"],
         projectLinks: [
             {
                 name: "AIRR Platform | V1",
@@ -27,8 +27,9 @@ export const experiences = [
         ]
     },
     {
-        title: "Web Developer",
+        title: "Web Developer Intern",
         company: "Alumni Association of GEC NIT Raipur",
+        companyLink: "https://gecnitrralumni.org/",
         duration: "Jan 2023 - Apr 2023",
         location: "Raipur, Chhattisgarh, India",
         responsibilities: [

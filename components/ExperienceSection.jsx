@@ -160,7 +160,7 @@ const ExperienceSection = () => {
                     </div>
                 </div>
             </div>
-            <WavesUI fillColor="rgb(19, 22, 27)" backgroundColor="rgb(18, 20, 25)" rotation="180" />
+            <WavesUI backgroundColor="rgb(19, 22, 27)" fillColor="rgb(18, 20, 25)" rotation="180" />
         </>
     )
 }

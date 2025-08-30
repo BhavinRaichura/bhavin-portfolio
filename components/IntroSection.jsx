@@ -116,7 +116,7 @@ export const IntroSection = () => {
         </div>
       </div>
      
-      <WavesUI backgroundColor="#1c2027" fillColor="#1f232b" rotation="180" classes="" />
+      <WavesUI fillColor="#1c2027" backgroundColor="#1f232b" rotation="0" classes="" />
     </div>
   );
 };
