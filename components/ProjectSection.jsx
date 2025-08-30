@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ProjectCard from '@/components/ProjectCard'
 import gsap, { ScrollTrigger } from 'gsap/all'
+import Link from 'next/link'
 import Title from '@/components/Title'
 import { projects } from '@/utils/projects'
 
@@ -44,14 +45,55 @@ const ProjectSection = () => {
             {/* project */}
             {
                 projects.map((project, key)=>(
-                      <div key={key} className={` infinite-bouncing-animation  flex flex-wrap  md:px-5 max-md:justify-center  transition-all w-1/2 max-md:w-full  cursor-pointer   ${(key)%2===0 ? " md:justify-end  md:mb-32 " : " md:justify-start  md:mt-32 "}  ${active===-1 ? " " : active!==key ? " brightness-50 ": " "} `} >
-                          <div className={` w-96 max-lg:w-80  `} >
-                              <div className='  w-96 h-96 max-lg:w-80 max-lg:h-80 ' onMouseEnter={() => setActive(key)} onMouseLeave={()=>setActive(-1)}>
-                                  <img src={project.image} title={project.title} alt="" className={` w-full h-full transition-all   ${active===key ? "  rounded-full ": " rounded-lg "}`} />
+                      <div key={key} className={`flex flex-wrap md:px-5 max-md:justify-center transition-all w-1/2 max-md:w-full ${(key)%2===0 ? "md:justify-end md:mb-32" : "md:justify-start md:mt-32"}`}>
+                          <div className="w-96 max-lg:w-80 transform transition-all duration-500 hover:-translate-y-2">
+                              <div 
+                                className="relative group w-96 h-96 max-lg:w-80 max-lg:h-80 overflow-hidden rounded-2xl border border-gray-800 bg-gray-900/50 transition-all duration-500"
+                                onMouseEnter={() => setActive(key)} 
+                                onMouseLeave={() => setActive(-1)}
+                              >
+                                {/* Image Container */}
+                                <div className="absolute inset-0 transform transition-all duration-700">
+                                  <img 
+                                    src={project.image} 
+                                    alt={project.title} 
+                                    className={`w-full h-full object-cover transition-all duration-700 ${active === key ? 'scale-110' : 'scale-100'}`}
+                                  />
+                                </div>
+                                
+                                {/* Bottom Gradient Overlay */}
+                                <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/60 via-black/40 to-transparent backdrop-blur-sm" />
+                                
+                                {/* Always Visible Content */}
+                                <div className="absolute inset-x-0 bottom-0 p-6">
+                                  <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+                                </div>
+
+                                {/* Hover Content */}
+                                <div className={`absolute inset-0 bg-black/70 backdrop-blur-[2px] flex flex-col p-6 transition-all duration-500 ${active === key ? 'opacity-100' : 'opacity-0'}`}>
+                                  {/* Title */}
+                                  <h3 className="text-xl font-bold text-white mb-4">{project.title}</h3>
+                                  {/* Description - Scrollable */}
+                                  <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent pr-2">
+                                    <p className="text-gray-100 text-base leading-relaxed">
+                                      {project.description}
+                                    </p>
+                                  </div>
                                   
+                                  {/* Button */}
+                                  <div className="pt-4 border-t border-white/20">
+                                    <a 
+                                      href={project.url} 
+                                      target="_blank" 
+                                      rel="noopener noreferrer" 
+                                      className="inline-flex items-center text-sky-400 hover:text-sky-300 transition-colors duration-300 text-base font-medium group/link"
+                                    >
+                                      Visit Live 
+                                      <span className="ml-2 transform transition-all duration-300 group-hover/link:translate-x-1">→</span>
+                                    </a>
+                                  </div>
+                                </div>
                               </div>
-                              <ProjectCard  index={key} active={active} {...project}   />
-                              
                           </div>
                       </div>
                     )
