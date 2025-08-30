@@ -79,7 +79,7 @@ const ProjectSection = () => {
                                   {/* Title */}
                                   <h3 className="text-2xl font-bold text-white mb-6">{project.title}</h3>
                                   {/* Description - Scrollable */}
-                                  <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent pr-3">
+                                  <div className="flex-1 overflow-y-auto pr-3">
                                     <p className="text-gray-200 text-lg leading-relaxed">
                                       {project.description}
                                     </p>
